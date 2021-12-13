@@ -13,7 +13,7 @@ class CreateMahasiswaMataKuliahTable extends Migration
      */
     public function up()
     {
-        Schema::create('mahasiswa_mata_kuliah', function (Blueprint $table) {
+        Schema::create('mahasiswa_mk', function (Blueprint $table) {
             $table->char('nim', 4);
             $table->char('kode_mk', 3);
 
